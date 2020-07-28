@@ -36,14 +36,15 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block;
   text-align: center;
+  display: block;
+  z-index: 10;
 }
 
 /* Hamburger menu styling */
 .topnav a.icon {
-  background: rgb(49, 163, 138);
   display: block;
+  background: rgb(49, 163, 138);
   position: absolute;
   right: 0;
   top: 0;
@@ -59,4 +60,10 @@ body {
 .active {
   background-color: #1ac731;
   color: white;
+}
+
+.header-img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
 }
