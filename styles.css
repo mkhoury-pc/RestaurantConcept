@@ -7,15 +7,15 @@ body {
 }
 
 .footer {
-  background-color: #1b1a1b;
-  padding: 10px;
+  background-color: #b17eb1;
+  padding: 2em;
 }
 
 /* Hamburger Menu */
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #b17eb1;
 }
 
 .topnav a {
@@ -47,13 +47,28 @@ h1 {
   padding-bottom: 10px;
 }
 
-.description {
-  text-align: center;
+.sign-up {
+  color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .description {
+  text-align: center;
   padding-bottom: 1em;
 }
+
+#name {
+  width: 20%;
+}
+
 
 /* Media queries */
 
@@ -78,3 +93,4 @@ h1 {
     text-align: justify;
   }
 }
+

@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Restaurant</title>
   <script src="burger.jss"></script>
+  <script src="form.jss"></script>
 </head>
 <body>
 
@@ -51,7 +52,17 @@
   </div>
   <!-- Email submission form -->
   <div class="footer">
-    <p>Footer</p>
+    <p class="sign-up"><i><b>Sign Up for weekly specials!</b></i></p>
+    <form class="form">
+      <label for="name">
+        <input type="text"  placeholder="Name">
+      </label> 
+        <label for="mail">
+          <input placeholder="Email" id="email" name="email">
+        </label>
+      <input= type="submit" value="submit" onclick="validation()">
+      <button>Submit</button>
+    </form>
   </div>
 </body>
 </html>
