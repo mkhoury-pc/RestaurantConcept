@@ -3,13 +3,15 @@
 }
 
 body {
-  background-color: rgb(183, 137, 226);
+  background-color: rgb(219, 197, 157);
 }
 
 .footer {
-  background-color: #945589;
+  background-color: #1b1a1b;
   padding: 10px;
 }
+
+/* Hamburger Menu */
 
 .topnav {
   overflow: hidden;
@@ -32,7 +34,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #db84ae;
   color: white;
 }
 
@@ -42,11 +44,18 @@ body {
 
 h1 {
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .description {
   text-align: center;
 }
+
+.description {
+  padding-bottom: 1em;
+}
+
+/* Media queries */
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
